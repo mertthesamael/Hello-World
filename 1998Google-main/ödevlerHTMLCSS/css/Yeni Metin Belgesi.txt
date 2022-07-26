@@ -1,0 +1,70 @@
+.box {
+    margin-left: 41%;
+    
+
+
+}
+/*************************************/
+.backgroundColorGrey{
+    background-color: rgba(128, 128, 128, 0.164) ;
+    padding-left: 36%;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.buttons {
+    margin: 0px 56px 0px;
+
+    
+}
+
+.text {
+    margin: 0px 56px
+}
+/*************************************/
+
+
+.backgroundColorBlue {
+    background-color:#7EE5DA ;
+    margin-left: 100px;
+    margin-right: 4px;
+    padding-right: 275px;
+    padding-left: 275px;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    margin-top: 4px;
+    float: left;
+}
+
+.backgroundColorDarker {
+    background-color: #70CCC2;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 150px;
+    padding-left: 150px;
+    float:left;
+}
+
+.backgroundColorEvenDarker {
+    background-color: #62B3AA;
+    margin-right: 100px;
+    margin-left: 1162px;
+    margin-top: 4px;
+    padding-left: 12%;
+    padding-bottom:4px;
+    
+}
+
+.zort {
+    
+    padding-left: 45%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.body {
+    margin: 0;
+background-color: aqua;
+}
+.inner-body{
+    position: absolute;
+    background-color: rgb(43, 226, 186);
+    height: 1200px;
+    width: 960px;
+    left: 600px;
+    display: flex;
+    flex-direction: row;
+    
+    top:100px;
+    
+    
+}
+.menu{
+    position: relative;
+    height: 500px;
+    background-color: grey;
+    width: 10%;
+    height: 1080px;
+}
+
+.nft-section{
+transform: scale(1);
+}
+

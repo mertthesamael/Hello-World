@@ -1,0 +1,18 @@
+[ 
+    {
+        "id":1,
+        "title":"Trade",
+        "icon":"https://i.hizliresim.com/3sj7h9n.png"
+    },
+    {
+        "id":2,
+        "title":"Stake",
+        "icon":"https://i.hizliresim.com/3gwcbp2.png"
+    }
+    ,
+    {
+        "id":3,
+        "title":"NFT",
+        "icon":"https://i.hizliresim.com/rq4az80.png"
+    }
+]
