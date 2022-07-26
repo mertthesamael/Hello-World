@@ -1,0 +1,135 @@
+body {
+  background-color: black;
+  font-family: 'Minecraft', cursive;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('Minecraft.ttf');
+}
+
+.default {
+  background-color: #393E46;
+}
+
+.success {
+  background-color: #00C897;
+}
+
+.fail {
+  background-color: #FF5959;
+}
+
+.lose {
+  background-color: black;
+}
+
+.relative {
+  position: relative;
+}
+
+.main {
+  height: 500px;
+  border-radius: 30px;
+  top: 200px;
+}
+
+.guessText {
+  left: 60%;
+  display: inline-block;
+}
+
+#input {
+  color: inherit;
+  left: 31.2%;
+  top: 20%;
+  background: transparent;
+  border: none;
+  border: 4px solid white;
+  height: 100px;
+  width: 120px;
+  font-size: 4rem;
+  padding: 10px;
+}
+
+.button {
+  color: white;
+  left: 45%;
+  background: transparent;
+  border: 2px solid;
+  padding: 10px
+}
+
+.input-div {
+  left: 9%;
+  top: 15%;
+  width: 20%;
+}
+.between-text{
+  left: 40%;
+  width: 120%;
+  font-size: 2rem;
+
+}
+.win-text {
+  position: absolute;
+  left: 35%;
+  top: -60px;
+  width: 50%;
+}
+
+.heart {
+  left: 10%;
+  top: 10%;
+  width: 50%;
+}
+
+.number {
+  font-size: 10rem;
+  display: inline;
+  position: absolute;
+  top: 40%;
+  left: 17%;
+}
+
+.guess-div {
+  width: 50%;
+}
+
+.try-again {
+  height: 200px;
+  width: 20%;
+  text-align: center;
+  padding: 80px;
+  bottom: 200px;
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.filter {
+  filter: brightness(0.1);
+}
+
+.try-text {
+  font-size: 2rem;
+}
+
+.footer {
+  top: 250px;
+  width: 30%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer-text {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-text:hover {
+  color: yellow;
+}

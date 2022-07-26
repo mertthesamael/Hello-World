@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+  <title>Guess It !</title>
+</head>
+
+<body>
+  <div class="full">
+
+
+    <div class="container main relative">
+      <div class="heart relative">
+        <img src="image/zort.png" alt="" class="heart-1">
+        <img src="image/zort.png" alt="" class="heart-2">
+        <img src="image/zort.png" alt="" class="heart-3">
+      </div>
+      <div class="win-text">
+
+
+
+        <h1 class="win container"></h1>
+      </div>
+      <div class="guess-div container">
+        <h1 class="guessText relative">Guess The Number</h1>
+      </div>
+
+      <p class="number">?</p>
+      <div class="input-div relative container">
+        <p class="between-text relative"> 0 - 10</p>
+        <input type="text" name="" value="" placeholder="" id="input" class="relative">
+
+
+
+        <button type="button" name="button" onclick="guess(guessNumber,heart);" class="button relative">Guess It !</button>
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <div class="container try-again relative">
+    <p class="try-text">Better Luck Next Time</p>
+    <a href="#" onclick="refresh()"><img src="image/refresh-yellow.png" alt=""></a>
+
+  </div>
+  <div class="container footer relative">
+    <a href="https://mertthesamael.github.io/mertenercan/" class="footer-text" target="_blank">Who Am I?</a>
+  </div>
+
+</body>
+<script src="js/script.js" charset="utf-8"></script>
+
+</html>
